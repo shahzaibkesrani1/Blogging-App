@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,700;1,800&display=swap');
+body{
+    background: #fafafa;
+}
+nav{
+background: #7749F8;
+}
+#done{
+background: #7749F8;
+color: white;
+border: none;
+height: 38px;
+top: 638px;
+left: 668px;
+border-radius: 6px;
+gap: 8px;
+transition: 0.4s;
+outline: none;
+
+}
+#logout,#uname{
+display: none;
+}
+#textarea{
+resize: none;
+}
+.userbox{
+width: 400px;
+word-wrap: break-word;
+}
+#updat,#delete{
+color: #7749F8;
+background: transparent;
+border: none;
+}
+.save ,.cancel{
+display: none;
+color: #7749F8;
+background: transparent;
+border: none;
+}
+body{
+font-family: 'Poppins', sans-serif;
+overflow-x: hidden;
+}
+body::-webkit-scrollbar {
+width: 0.3em;
+}
+body::-webkit-scrollbar-thumb {
+background-color: #7749F8;
+outline: 1px solid rgb(255, 255, 255);
+} 
+.signup{
+background: #7749F8;
+color: white;
+border: none;
+width:87px;
+height: 38px;
+top: 638px;
+left: 668px;
+border-radius: 6px;
+gap: 8px;
+transition: 0.4s;
+outline: none;
+
+}
+.signup:hover{
+background: #5227CC;
+}
+
+.form-control:focus{
+border-color: #7749F8;
+box-shadow:0px 0px 5px #7749F8;
+}
+
+.signup:hover{
+    background: #5227CC;
+}
+
+.form-control:focus{
+    box-shadow: 0px 0px 8px #7749F8;
+    border-color: #7749F8;
+}
+#done:hover{
+background: #5227CC;
+}
+#textarea{
+resize: none;
+}
+.userbox{
+width: 400px;
+word-wrap: break-word;
+}
+#updat,#delete{
+color: #7749F8;
+background: transparent;
+border: none;
+}
+#save ,#cancel{
+display: none;
+color: #7749F8;
+background: transparent;
+border: none;
+}
+.description{
+    word-wrap: break-word;
+}
